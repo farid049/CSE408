@@ -1,0 +1,177 @@
+.details{
+    margin: 5rem auto;
+    padding: 1.5rem;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+.details .heading{
+    font-family: 'Poppins',sans-serif;
+    font-size: 25px;
+    color: #243546;
+}
+
+.details .subheading{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin: 2rem 0;
+}
+
+.details p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #576574;
+    line-height: 30px;
+}
+
+.details .btn{
+    outline: none;
+    border: none;
+    background: #546de5;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 1.5rem;
+    transition: all 0.1s linear;
+}
+
+
+.details .btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.details .btn:disabled{
+    background-color: #dadada;
+    color: #818181;
+    font-weight: 500;
+}
+
+.details .btn:disabled:hover{
+    cursor: not-allowed;
+    transform: none;
+}
+
+.details .btn .chat-icon{
+    margin-left: 0.5rem;
+}
+
+.details table{
+    border-collapse: collapse;
+}
+
+table thead tr th, 
+table tbody tr td{
+    padding: 0.5rem 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    
+}
+
+.details .msg-container{
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 -6px 10px rgba(114, 114, 114, 0.295);
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    display: none;
+}
+
+.details .msg-container.show{
+    display: block;
+}
+
+.msg-container .msg-header{
+    background-color: #e66767;
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+
+.msg-container .msg-header p{
+    color: white;
+    display: flex;
+    margin: 0.2rem 0;
+}
+
+.msg-container .close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.msg-container .msg-header p .customer-icon{
+    font-size: 30px;
+    margin-right: 0.5rem;
+}
+
+.msg-container .msg-header p.active-status{
+    font-size: 14px;
+    margin-left: 2.2rem;
+}
+
+.msg-container .msg-body{
+    padding: 1rem;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.msg-body p{
+    max-width: 60%;
+    font-size: 14px;
+    padding: 0.4rem 1rem;
+    border-radius: 100px;
+    margin: 1rem 0;
+}
+
+.msg-body p:nth-child(even){
+    margin: 0 0 0 auto;
+}
+
+.msg-body p.reply{
+    background-color: #dfe4ea;
+}
+
+.msg-body p.sent{
+    background-color: #546de5;
+    color: white;
+    text-align: right;
+}
+
+.msg-container .msg-footer{
+    height: 70px;
+    border-top: 1px solid rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.msg-footer input{
+    flex: 1;
+    height: 40px;
+    padding: 0 0.5rem;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px 0 0 5px;
+
+}
+
+.msg-footer .sent-btn{
+    background: #e66767;
+    height: 40px;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 0 1rem;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.add_form{
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid rgb(230, 230, 230);
+    padding: 2rem 1rem;
+    margin: 5rem auto;
+}
+
+.add_form h2{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.add_form .form-group{
+    width: 100%;
+    height: 45px;
+    margin: 1.5rem 0;
+}
+
+.add_form .form-group .form-control,
+.add_form select{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 219, 219);
+    font-family: 'Poppins', sans-serif;
+    padding: 0 1rem;
+    outline: none;
+}
+
+.add_form select{
+    height: 45px;
+}
+
+.add_form .form-group button.form-control{
+    background-color: #686de0;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.add_form .form-group button.form-control:hover{
+    background-color: #5a5ec5;
+}
