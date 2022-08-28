@@ -23,7 +23,7 @@ function Footer() {
             <li>Contact</li>
          </ul>
 
-         <p className='copyright'>© 2022 FoodView</p>
+         <p className='copyright'>© 2022 HungerExpress</p>
     </footer>
   )
 }
