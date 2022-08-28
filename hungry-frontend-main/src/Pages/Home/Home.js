@@ -8,10 +8,10 @@ function Home() {
     <>
         <div className='hero__area'>
             <div className="inner__hero">
-                <h3>Looking you are so <span>hungry!</span></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo iusto dignissimos quisquam, blanditiis pariatur laboriosam perspiciatis reprehenderit deserunt dolorem</p>
+                <h3>Apply as a <span>Rider!</span></h3>
+                <p>Be a part of Humger Express Family</p>
                 <div className="form__group">
-                    <input type="text" placeholder='Burger..'/>
+                    <input type="text" placeholder='Rider..'/>
                     <button>Search</button>
                 </div>
             </div>
@@ -20,12 +20,12 @@ function Home() {
         <div className='rest__area'>
           <h3>Some famous Restaurants</h3>
           <div className="rest__cards">
-            <RestCard title='Jimmy Restaurant' Rest__img={Rest__img} />
-            <RestCard title='Jimmy Restaurant' Rest__img={Rest__img} />
-            <RestCard title='Jimmy Restaurant' Rest__img={Rest__img} />
-            <RestCard title='Jimmy Restaurant' Rest__img={Rest__img} />
-            <RestCard title='Jimmy Restaurant' Rest__img={Rest__img} />
-            <RestCard title='Jimmy Restaurant' Rest__img={Rest__img} />
+            <RestCard title='Sultans Dine Restaurant' Rest__img={Rest__img} />
+            <RestCard title='Sultans Dine Restaurant' Rest__img={Rest__img} />
+            <RestCard title='Sultans Dine Restaurant' Rest__img={Rest__img} />
+            <RestCard title='Sultans Dine Restaurant' Rest__img={Rest__img} />
+            <RestCard title='Sultans Dine Restaurant' Rest__img={Rest__img} />
+            <RestCard title='Sultans Dine Restaurant' Rest__img={Rest__img} />
           </div>
         </div>
     </>

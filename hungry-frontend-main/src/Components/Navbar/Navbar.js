@@ -23,8 +23,8 @@ function Navbar() {
 
             <menu>
                 <ul>
-                    <li>New items</li>
-                    <li>Dessert</li>
+                    <li>Apply Job!</li>
+                    <li>Rider</li>
                     <li>Cart <FaShoppingBag /></li>
                 </ul>
             </menu>
